@@ -1,1 +1,42 @@
+/* colori */
+/* misure */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+header img {
+  display: block;
+  width: 200px;
+  height: auto;
+  margin: auto;
+  padding: 25px 0 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  padding: 15px 8px;
+}
+nav ul a {
+  color: #002d73;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 22px;
+}
+nav ul .active {
+  background-color: #b2e5fc;
+}
