@@ -20,5 +20,20 @@
                 </nav>
             </div>
         </header>
+        <main>
+            
+            <div class="container">
+                <div>
+                    <h2>le lunghe</h2>
+                    <div class="cards">
+                        @foreach ($lunghe as $pasta)
+                            <div class="card">
+                                <img src="{{$pasta["src"]}}" alt="{{$pasta["titolo"]}}">
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>

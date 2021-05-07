@@ -9,3 +9,14 @@
     width: 100%;
     margin: auto;
 }
+
+main {
+    background-image: url("../images/fondo-pag-speciali.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    h2 {
+        color: $main_color;
+        text-transform: uppercase;
+        padding-top: 20px;
+    }
+}

@@ -12,6 +12,17 @@
   margin: auto;
 }
 
+main {
+  background-image: url("../images/fondo-pag-speciali.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main h2 {
+  color: #002d73;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
 header img {
   display: block;
   width: 200px;
@@ -39,4 +50,16 @@ nav ul a {
 }
 nav ul .active {
   background-color: #b2e5fc;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards .card {
+  width: calc((100% / 3) - 20px);
+  margin: 10px;
+}
+.cards .card img {
+  width: 100%;
 }
