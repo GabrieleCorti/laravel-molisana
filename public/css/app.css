@@ -16,11 +16,15 @@ main {
   background-image: url("../images/fondo-pag-speciali.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  padding: 40px 0;
 }
 main h2 {
   color: #002d73;
   text-transform: uppercase;
-  padding-top: 20px;
+}
+
+footer {
+  padding: 40px 0px 110px;
 }
 
 header img {
@@ -62,4 +66,21 @@ nav ul .active {
 }
 .cards .card img {
   width: 100%;
+}
+
+.recapiti .wrap {
+  width: 200px;
+}
+.recapiti .wrap img {
+  display: block;
+  width: 100%;
+}
+.recapiti address {
+  font-style: normal;
+}
+.recapiti address ul {
+  list-style: none;
+}
+.recapiti address ul li {
+  color: #848b98;
 }

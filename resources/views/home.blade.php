@@ -55,5 +55,30 @@
                 </div>
             </div>
         </main>
+        <footer class="container">
+            <div class="recapiti">
+                <div class="wrap">
+                    <img src="{{asset("images/marchio-sito-test.png")}}" alt="">
+                </div>
+                <address class="info">
+                    <ul>
+                        <li>Ragione sociale: la Molisana S.P.A.</li>
+                        <li>sede legale: Contrada Colle Delle Api. 100/A</li>
+                        <li>86100-Campobasso</li>
+                        <li>Pec: lamolisana@pec</li>
+                        <li>Tel: 212321323231</li>
+                        <li>Fax: 231234232</li>
+                        <li>info@lamolisana.it</li>
+                        <li>comemrcale@lamolisana.it</li>
+                        <li>export@lamolisana.it</li>
+                        <li>numero verde: 800818081</li>
+                        <li>telefono 3801292455</li>
+                    </ul>
+                </address>
+            </div>
+            <div class="navFoot">
+
+            </div>
+        </footer>
     </body>
 </html>
