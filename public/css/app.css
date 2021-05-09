@@ -1,5 +1,6 @@
 /* colori */
 /* misure */
+/*all*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -12,6 +13,7 @@
   margin: auto;
 }
 
+/*section*/
 main {
   background-image: url("../images/fondo-pag-speciali.jpg");
   background-size: cover;
@@ -25,6 +27,12 @@ main h2 {
 
 footer {
   padding: 40px 0px 110px;
+  background-image: url("../images/footer-montagne-bottom.jpg");
+  background-position: bottom;
+  background-repeat: repeat-x;
+}
+footer div.container {
+  display: flex;
 }
 
 header img {
@@ -76,6 +84,7 @@ nav ul .active {
   width: 100%;
 }
 .recapiti address {
+  padding-top: 8px;
   font-style: normal;
 }
 .recapiti address ul {
@@ -83,4 +92,29 @@ nav ul .active {
 }
 .recapiti address ul li {
   color: #848b98;
+}
+
+.navFoot {
+  width: 65%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 70px;
+}
+.navFoot .listaLinkFooter {
+  width: calc(100% / 2);
+}
+
+.listaLinkFooter h3 {
+  color: #848b98;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+.listaLinkFooter ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+.listaLinkFooter ul li a {
+  color: #848b98;
+  text-decoration: none;
+  line-height: 1.8;
 }

@@ -1,0 +1,18 @@
+.listaLinkFooter {
+    h3 {
+        color: $text_color;
+        text-transform: uppercase;
+        padding-bottom: 15px;
+    }
+    ul {
+        list-style: none;
+        padding-bottom: 20px;
+        li {
+            a {
+                color: $text_color;
+                text-decoration: none;
+                line-height: 1.8;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.navFoot {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 70px;
+    .listaLinkFooter {
+        width:calc(100% / 2);   
+    }
+}

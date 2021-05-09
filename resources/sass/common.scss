@@ -1,3 +1,4 @@
+/*all*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -9,7 +10,7 @@
     width: 100%;
     margin: auto;
 }
-
+/*section*/
 main {
     background-image: url("../images/fondo-pag-speciali.jpg");
     background-size: cover;
@@ -23,4 +24,10 @@ main {
 
 footer {
     padding: 40px 0px 110px;
+    background-image: url("../images/footer-montagne-bottom.jpg");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    div.container {
+        display: flex;
+    }
 }
