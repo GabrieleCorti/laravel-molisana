@@ -16,8 +16,8 @@
 /*section*/
 main {
   background-image: url("../images/fondo-pag-speciali.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: repeat;
   padding: 40px 0;
 }
 main h2 {
@@ -117,4 +117,15 @@ nav ul .active {
   color: #848b98;
   text-decoration: none;
   line-height: 1.8;
+}
+
+main.product {
+  background: #b7dae5;
+  color: #002d73;
+}
+main.product h1 {
+  text-align: center;
+}
+main.product img {
+  width: 100%;
 }

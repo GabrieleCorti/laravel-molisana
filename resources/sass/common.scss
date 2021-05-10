@@ -13,8 +13,8 @@
 /*section*/
 main {
     background-image: url("../images/fondo-pag-speciali.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat;
     padding: 40px 0;
     h2 {
         color: $main_color;
